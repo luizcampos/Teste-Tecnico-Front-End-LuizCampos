@@ -14,7 +14,7 @@ function Products() {
         fetchProducts('Games').then((response) => {
             setProducts(response);
             setLoading(false);
-            console.log(products)
+            //console.log(products)
         });
     }, []);
 

@@ -10,7 +10,7 @@ function Cart() {
     const { cartItems, setCartItems } = useContext(AppContext); //array com todas as infos dos produtos adicionados ao carrinho
 
     //vai acumuladando -> acc é acumulator
-    const totalPrice = cartItems.reduce((acc, item) => parseFloat(item.price) + parseFloat(acc), 0);
+    const totalPrice = cartItems.reduce((acc, item) => parseFloat(item.priceCart) + parseFloat(acc), 0);
 
     // Função para carregar itens do localStorage
     const loadCartItems = () => {
@@ -36,7 +36,7 @@ function Cart() {
                     <br/>
                     {formatCurrency(totalPrice, 'BRL')}
                     <br/>
-                    {totalPrice > 0 ? <span style={{color: '#40c652'}}>em até <strong>10x de {(totalPrice/10).toFixed(2)}</strong></span> : ''}
+                    {totalPrice > 0 ? <span style={{color: '#40c652'}}>em até <strong>10x de R$ {(totalPrice/10).toFixed(2)}</strong></span> : ''}
                 </div>
             </div>
             

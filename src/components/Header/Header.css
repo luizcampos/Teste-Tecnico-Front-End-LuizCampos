@@ -34,13 +34,13 @@
     }
 
     .header .mobile-logo img{
-        width: 4rem;
+        width: 6rem;
     }
 }
 
 @media all and (min-width:577px) {
     .header img {
-        width: 4rem;
+        width: 5rem;
         margin-right: 2rem;
     }
 

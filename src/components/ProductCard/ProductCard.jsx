@@ -12,11 +12,10 @@ function ProductCard({ data }) {
 
     const { cartItems, setCartItems } = useContext(AppContext);
 
-    /*
-    const handleAddCart = () => setCartItems([ ...cartItems, data ]);*/
-
-     // Função para carregar itens do localStorage
-     const loadCartItems = () => {
+    let auxId = 0;
+    
+    // Função para carregar itens do localStorage
+    const loadCartItems = () => {
         const savedItems = localStorage.getItem('cartItems');
         if (savedItems) {
             setCartItems(JSON.parse(savedItems));
@@ -43,12 +42,11 @@ function ProductCard({ data }) {
                 <h4 className="card_seller">{seller.nickname}</h4>
                 <h2 className="card_price">{formatCurrency(price, 'BRL')}</h2>
             </div>
-            <button type="button" className="button_add-cart" onClick={() => addItemToCart({ id: title, thumbnail: thumbnail.replace(/\w\.jpg/gi, 'W.jpg'), title: title, price: price })}>
+            <button type="button" className="button_add-cart" onClick={() => addItemToCart({ id: Date.now(), thumbnail: thumbnail.replace(/\w\.jpg/gi, 'W.jpg'), title: title, price: price, priceCart: price, qtde: 1})}>
                 <FaCartPlus />
             </button>
         </section>
-    )
-    
+    )   
 }
 
 export default ProductCard;

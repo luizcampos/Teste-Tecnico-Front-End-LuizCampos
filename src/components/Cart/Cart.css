@@ -37,8 +37,9 @@
 .cart-resume {
     font-size: 1.8rem;
     font-weight: 500;
-    padding: 35px 0 15px;
+    padding: 2rem;
     border-top: 1px solid #ddd;
+    text-align: right;
 }
 
 .cart-resume span {
@@ -68,7 +69,7 @@
 
 @media all and (min-width:577px) {
     .cart {
-        width: 60%;
+        width: 70%;
         padding: 200px 0;
     }
 }

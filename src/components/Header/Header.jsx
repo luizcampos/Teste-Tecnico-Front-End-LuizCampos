@@ -10,12 +10,12 @@ function Header() {
         <header className="header">
             <div className="mobile-logo">
                 <Link to="/">
-                    <img src="../img/logo-1024.png" alt="NextGamer Logo" title="NextGamer"/>
+                    <img src="../img/logo-mobile.png" alt="NextGamer Logo" title="NextGamer"/>
                 </Link>
             </div>
             <div className="container">
                 <Link to="/">
-                    <img src="../img/logo-1024.png" alt="NextGamer Logo" title="NextGamer"/>
+                    <img src="../img/logo-new-desk-3.png" alt="NextGamer Logo" title="NextGamer"/>
                 </Link>
                 <Search/>
                 <Link to="/cart">
