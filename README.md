@@ -5,6 +5,7 @@ NextGamer é um sistema web de comércio digital desenvolvido para uma e-commerc
 
 [💻 Teste aqui](https://teste-tecnico-front-end-luiz-campos.vercel.app/)
 
+<img src="/public/img/logo-mobile.png" width="200" >
 
 ## Funcionalidades
 
