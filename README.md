@@ -1,70 +1,76 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NextGamer
 
-## Available Scripts
+NextGamer é um sistema web de comércio digital desenvolvido para uma e-commerce fictícia de jogos e consoles. Este projeto oferece uma experiência para a compra de produtos relacionados a videogames, permitindo que os usuários visualizem, adicionem e removam produtos do carrinho de compras.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Visualizar Produtos: os usuários podem navegar pelo catálogo de jogos e consoles disponíveis. Há um menu que facilitará aa pesquisa com os atalhos: "Consoles" e "Jogos";
+* Pesquisa: busque por produtos específicos dentro da plataforma;
+* Adicionar ao Carrinho: adicione produtos ao carrinho de compras;
+* Remover do Carrinho: remova produtos indesejados do carrinho de compras.
 
-### `npm test`
+## Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* HTML5;
+* CSS3;
+* JavaScript;
+* React;
+* [API do Mercado Livre](https://api.mercadolibre.com/sites/MLB/search?q=) (para a busca dos produtos). 
 
-### `npm run build`
+## Por que foi usado React?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Optei por usar o React devido às suas diversas vantagens no desenvolvimento de interfaces de usuário modernas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Componentização: o React permite criar componentes reutilizáveis, facilitando a manutenção e a escalabilidade do código. Ex: os cards de cada produto;
+* Desempenho: a utilização da virtual DOM pelo React melhora o desempenho da aplicação, tornando-a mais rápida e responsiva;
+* Conhecimento: o React é a tecnologia a qual tenho mais familiaridade, portanto, foi crucial esse fator na escolha.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Responsividade
 
-### `npm run eject`
+Para que a aplicação seja disponibilizada para diversos dispositivos, segui a metodologia mobile first com flexbox e grid a fim de proporcionar essa adaptação.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acessibilidade
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Algumas diretrizes de acessibilidade foram implementadas, como o texto alternativo para as imagens.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Funcionalidades futuras
 
-## Learn More
+* Quantidade do produto no carrinho;
+* Diminuir e aumentar a quantidade de um produto no carrinho;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Documentação de cores
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Cor               | Hexadecimal                                                |
+| ----------------- | ---------------------------------------------------------------- |
+| Verde       | ![#40c652](https://via.placeholder.com/10/40c652?text=+) #40c652 |
+| Texto Card       | ![#e2e2e2](https://via.placeholder.com/10/e2e2e2?text=+) #e2e2e2 |
+| Texto geral       | ![#fffcff](https://via.placeholder.com/10/fffcff?text=+) #fffcff |
+| Card       | ![#292929](https://via.placeholder.com/10/292929?text=+) #292929 |
+| Header e Footer       | ![#262525](https://via.placeholder.com/10/262525?text=+) #262525 |
+| Background pages       | ![#161616](https://via.placeholder.com/10/161616?text=+) #161616 |
 
-### Code Splitting
+## Como executar o projeto?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1 - Clone este repositório:
+```bash
+  git clone https://github.com/luizcampos/Teste-Tecnico-Front-End-LuizCampos.git
+```
+    
+2 - Navegue até o diretório do projeto:
+```bash
+  cd NextGamer
+```
 
-### Analyzing the Bundle Size
+3 - Instale as dependências:
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4 - Execute a aplicação:
+```bash
+  npm start
+```

@@ -1,0 +1,26 @@
+.loading {
+    font-size: 2rem;
+    margin: 200px auto;
+    animation: gifGiro 1s infinite;
+    -webkit-animation: gifGiro 1s linear infinite;
+    width: 100%;
+}
+
+@keyframes gifGiro {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+    
+}
