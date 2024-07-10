@@ -18,6 +18,7 @@ NextGamer é um sistema web de comércio digital desenvolvido para uma e-commerc
 * CSS3;
 * JavaScript;
 * React;
+* [React Icons](https://react-icons.github.io/react-icons);
 * [API do Mercado Livre](https://api.mercadolibre.com/sites/MLB/search?q=) (para a busca dos produtos). 
 
 ## Por que foi usado React?
