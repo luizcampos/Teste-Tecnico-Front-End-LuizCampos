@@ -71,3 +71,20 @@
 .product-card:hover .button_add-cart{
     display: flex;
 }
+
+
+@media all and (max-width:576px) {
+    .button_add-cart {
+        display: flex;
+    }
+}
+
+@media all and (min-width:577px) {
+    .button_add-cart {
+        display: none;
+    }
+
+    .product-card:hover .button_add-cart{
+        display: flex;
+    }
+}
