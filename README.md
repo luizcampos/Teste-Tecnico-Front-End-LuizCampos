@@ -8,11 +8,11 @@ NextGamer é um sistema web de comércio digital desenvolvido para uma e-commerc
 
 ## Funcionalidades
 
-🛒 Visualizar Produtos: os usuários podem navegar pelo catálogo de jogos e consoles disponíveis. Há um menu que facilitará aa pesquisa com os atalhos: "Consoles" e "Jogos";\
-🔍 Pesquisa: busque por produtos específicos dentro da plataforma;\
-➕ Adicionar ao Carrinho: adicione produtos ao carrinho de compras;\
-➖ Remover do Carrinho: remova produtos indesejados do carrinho de compras;\
-🛍 Aumentar/diminuar quantidade do item no carrinho;\
+🛒 Visualizar Produtos: os usuários podem navegar pelo catálogo de jogos e consoles disponíveis. Há um menu que facilitará aa pesquisa com os atalhos: "Consoles" e "Jogos";\ \
+🔍 Pesquisa: busque por produtos específicos dentro da plataforma;\ \
+➕ Adicionar ao Carrinho: adicione produtos ao carrinho de compras;\ \
+➖ Remover do Carrinho: remova produtos indesejados do carrinho de compras;\ \
+🛍 Aumentar/diminuar quantidade do item no carrinho;\ \
 💸 Visualizar o valor total e o valor parcelado em 10x.
 
 ## Tecnologias
